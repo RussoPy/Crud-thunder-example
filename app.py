@@ -1,6 +1,6 @@
 from flask import Flask, request
 import sqlite3
-from backend.funcs import convert_to_json
+from funcs import convert_to_json
 
 app = Flask(__name__)
 
